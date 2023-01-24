@@ -7,8 +7,7 @@ from Other import Config
 
  
 DataBaseG9 = os.environ["DataBaseG9"]
-cluster = MongoClient("mongodb+srv://GRoz9:GRozanski942005@gr9.6uqcu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-#cluster = MongoClient("mongodb+srv://<GRoz9>:<GRozanski942005>@<GHOST9>/<Levelling System>?ssl=true&ssl_cert_reqs=CERT_NONE")
+cluster = MongoClient("CLIENTID")
 levelling = cluster["GHOST9"]["LevellingSystem"]
 
 class LevellingSys(commands.Cog):
